@@ -2,35 +2,42 @@ package challenges;
 
 public class ExtendedLoopPractice {
     public static void main(String[] args) {
-        int[] arr = {40, 60, 70, 80, 100};
-        return grades(arr);
+        double[] arr = {40, 60, 70, 80, 100}; // Changed to double[]
+        
+        // Call grade method and print the results
+        double[] updatedGrades = grade(arr);
+        for (double grade : updatedGrades) {
+            System.out.println(grade);
+        }
     }
 
-    public static double average(int[] num) {
+    public static double average(double[] num) {
         double sum = 0;
 
-        for (int i = num.length; i < num.length; i++) {
+        // Corrected the loop to iterate properly
+        for (int i = 0; i < num.length; i++) {
             sum += num[i];
         }
 
-        return sum / num.length;
+        return sum / num.length; // Return the correct average
     }
 
-    public static double grade(int[] grades) {
+    public static double[] grade(double[] grades) {
         double avg = average(grades);
-        
-        for (int i = grades.length; i < grades.length; i++) {
-            if (grades[i] > avg) {
-                grades[i] = grades[i] / 2;
-            } else if (grades[i] < avg) {
-                grades[i] = grades[i] * 2;
 
-                if (grades[i] > 100) {
+        // Corrected the loop to iterate properly
+        for (int i = 0; i < grades.length; i++) {
+            if (grades[i] > avg) {
+                grades[i] = grades[i] / 2; // Halve grades above average
+            } else if (grades[i] < avg) {
+                grades[i] = grades[i] * 2; // Double grades below average
+
+                if (grades[i] > 100) { // Cap grades at 100
                     grades[i] = 100;
                 }
             }
         }
 
-        return grades;
+        return grades; // Return the updated grades array
     }
 }
