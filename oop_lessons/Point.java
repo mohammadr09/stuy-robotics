@@ -1,4 +1,4 @@
-package oop_lesson;
+package oop_lessons;
 public class Point {
     double x;
     double y;

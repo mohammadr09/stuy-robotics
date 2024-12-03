@@ -1,4 +1,4 @@
-package oop_lesson;
+package oop_lessons;
 public class Triangle {
     Point pointA;
     Point pointB;
