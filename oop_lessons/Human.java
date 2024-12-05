@@ -14,4 +14,9 @@ public class Human {
     public int getNextGrade() {
         return age + 1;
     }
+
+    public String changeName(String newName) {
+        name = newName;
+        return newName + " is now the person's new name";
+    }
 }
