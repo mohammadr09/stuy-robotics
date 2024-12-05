@@ -67,4 +67,5 @@ public class Child extends Parent {
 * use the `super.propertyName` to bypass this
 
 **Overriding Methods**
+* add `@Override` at the top of declaring the function
     
