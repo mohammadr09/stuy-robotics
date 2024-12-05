@@ -2,7 +2,7 @@ package program;
 
 import oop_lessons.*;
 
-public class Main {
+public class OOP_Lesson2 {
     public static void main(String[] args) {
         Car toyota = new Car(1000, "Toyota", 7, "White");
         Car bmw = new Car(5000, "BMW", 5, "Black");
