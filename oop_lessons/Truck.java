@@ -15,6 +15,6 @@ public class Truck extends Veichle {
 
     @Override
     public String stopEngine() {
-        return "Truck stopped";
+        return "Truck " + manufacturer + " has stopped.";
     }
 }   
