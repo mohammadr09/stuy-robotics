@@ -1,4 +1,4 @@
-package challenges;
+package challenges.practice;
 
 public class loopPractice {
     public static void main(String[] args) {

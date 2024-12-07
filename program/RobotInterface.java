@@ -2,7 +2,7 @@
 
 package program;
 
-import challenges.robot_interface.*;
+import challenges.practice.robot_interface.*;
 
 public class RobotInterface {
     public static void main(String[] args) {

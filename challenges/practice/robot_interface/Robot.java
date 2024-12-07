@@ -1,4 +1,4 @@
-package challenges.robot_interface;
+package challenges.practice.robot_interface;
 
 public interface Robot {
     String getTeamName();

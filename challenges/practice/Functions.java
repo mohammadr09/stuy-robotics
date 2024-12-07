@@ -1,4 +1,4 @@
-package challenges;
+package challenges.practice;
 
 public class Functions {
     public static void main(String[] args) {
